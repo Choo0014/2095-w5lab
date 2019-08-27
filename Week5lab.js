@@ -11,7 +11,7 @@ router.get('/', function (req, res) { //home page
 });
 
 router.get('/addTask', function (req, res) { //adding task page
-    res.sendFile(path2Views + '/addtask.html');
+    res.sendFile(path2Views + '/addTask.html');
 });
 
 router.post('/formTask', function (req, res) {
