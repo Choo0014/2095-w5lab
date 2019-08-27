@@ -27,7 +27,7 @@ app.get('/', function (req, res) { //home page
 });
 
 app.get('/addTask', function (req, res) { //adding task page
-    res.sendFile(path2Views + '/addtask.html');
+    res.sendFile(path2Views + '/addTask.html');
 });
 
 app.post('/formTask', function (req, res) {
