@@ -8,6 +8,10 @@ img {
     margin-left: 15px;
 }
 
+html{
+    background-color: bisque;
+}
+
 body {
     background-color: bisque;
 }
