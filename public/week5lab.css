@@ -6,21 +6,23 @@ td {
 
 img {
     margin-left: 15px;
+    /* background-color: bisque; (didn't work)*/
 }
 
 html{
     background-color: bisque;
 }
 
-body {
+/* body {
     background-color: bisque;
-}
+} */
 
 h1 {
     margin-left: 15px;
     font-family: 'Lobster', cursive;
     font-size: 20px;
     color: blueviolet;
+    background-color: bisque;
 }
 
 h3 {
@@ -28,6 +30,7 @@ h3 {
     font-family: 'Lobster', cursive;
     font-size: 20px;
     color: blueviolet;
+    background-color: bisque;
 }
 
 #Submit1 {
@@ -36,8 +39,10 @@ h3 {
 
 #homeAddTask {
     margin-left: 15px;
+    
 }
 
 #homeListTask {
     margin-left: 15px;
+    
 }
