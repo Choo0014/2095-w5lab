@@ -8,6 +8,10 @@ img {
     margin-left: 15px;
 }
 
+body {
+    background-color: bisque;
+}
+
 h1 {
     margin-left: 15px;
     font-family: 'Lobster', cursive;
