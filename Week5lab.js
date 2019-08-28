@@ -32,7 +32,9 @@ router.post('/formTask', function (req, res) {
     console.log(obj);
     db.push(obj);
     //res.send('Your input has been saved.')
-    res.sendFile(path2Views + '/addTask.html');
+    res.render("listTask.html", {
+        taskDb: db
+    });
 })
 
 router.get('/listTask', function (req, res) { //listing task page
